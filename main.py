@@ -40,10 +40,11 @@ def decode_qrcode(image_path):
 
 
 if __name__ == "__main__":
-    # 获取用户输入的二维码图片路径
-    image_path = input("请输入二维码图片的路径: ")
+
 
     try:
+        # 获取用户输入的二维码图片路径
+        image_path = input("请输入二维码图片的路径: ")
         # 调用解码函数
         decode_qrcode(image_path)
     except KeyboardInterrupt:
