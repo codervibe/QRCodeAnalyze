@@ -28,6 +28,7 @@ def decode_qrcode(image_path):
 
     :param image_path: 二维码图像文件的路径。
     """
+
     logging.info(f"开始解码二维码: {image_path}")
     # 尝试打开图像文件
     try:
